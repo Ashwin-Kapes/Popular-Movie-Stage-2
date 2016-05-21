@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Popular Movies 2</string>
+    <string name="title_movie_detail">Movie Detail</string>
+    <string name="sort_option_popularity">Popularity</string>
+    <string name="sort_option_rated">Highest rated</string>
+    <string name="sort_option_favourite">Favourites</string>
+    <string name="sort_menu">Sort By</string>
+    <string name="overview_header">Overview</string>
+    <string name="trailers_header">Trailers</string>
+    <string name="reviews_header">Reviews</string>
+    <string name="share_menu">Share</string>
+    <string name="fav_button_add">Add as favourite</string>
+
+</resources>

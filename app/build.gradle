@@ -12,7 +12,7 @@ android {
         versionCode 1
         versionName "1.0"
         def STRING = "String"
-        buildConfigField STRING, "API_KEY", "\"API KEY HERE\""
+        buildConfigField STRING, "API_KEY", "\"db704f0754695eafb2fe828841dbe4ae\""
         buildConfigField STRING, "ROOT_URL", "\"http://api.themoviedb.org\""
         buildConfigField STRING, "IMAGE_URL", "\"http://image.tmdb.org/t/p\""
 

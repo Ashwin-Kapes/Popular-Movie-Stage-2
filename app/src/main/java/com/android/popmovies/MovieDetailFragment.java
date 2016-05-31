@@ -12,6 +12,7 @@ import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuInflater;
@@ -45,7 +46,7 @@ import retrofit.Retrofit;
 
 
 public class MovieDetailFragment extends Fragment {
-
+    public static String LOG_TAG = MovieDetailFragment.class.getSimpleName();
 
     MovieModel movieModel;
     @Bind(R.id.imageView)
@@ -201,7 +202,7 @@ public class MovieDetailFragment extends Fragment {
 
 
     private boolean isFavourite() {
-
+        Log.v(LOG_TAG, "isFavourite: " + movieModel.isValid());
         return realm.where(MovieModel.class).contains("id", movieModel.getId()).findAll().size() != 0;
     }
 

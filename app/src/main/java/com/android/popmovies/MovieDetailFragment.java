@@ -202,7 +202,9 @@ public class MovieDetailFragment extends Fragment {
 
 
     private boolean isFavourite() {
-        Log.v(LOG_TAG, "isFavourite: " + movieModel.isValid());
+        if(!movieModel.isValid()) {
+            Log.e(LOG_TAG, "isFavourite: " + movieModel.isValid());
+        }
         return realm.where(MovieModel.class).contains("id", movieModel.getId()).findAll().size() != 0;
     }
 

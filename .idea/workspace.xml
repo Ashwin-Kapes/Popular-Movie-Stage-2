@@ -9,7 +9,9 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5c39ff81-3744-4b39-a7eb-b9df0eb79f5e" name="Default" comment="" />
+    <list default="true" id="5c39ff81-3744-4b39-a7eb-b9df0eb79f5e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/android/popmovies/MovieDetailFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/android/popmovies/MovieDetailFragment.java" />
+    </list>
     <ignored path="Popular-Movie-Stage-2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,8 +34,8 @@
       <file leaf-file-name="MovieDetailFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/popmovies/MovieDetailFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6938776">
-              <caret line="204" column="63" selection-start-line="204" selection-start-column="63" selection-end-line="204" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.7285714">
+              <caret line="205" column="39" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -2256,8 +2258,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/android/popmovies/MovieDetailFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6938776">
-          <caret line="204" column="63" selection-start-line="204" selection-start-column="63" selection-end-line="204" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.7285714">
+          <caret line="205" column="39" selection-start-line="205" selection-start-column="39" selection-end-line="205" selection-end-column="39" />
           <folding />
         </state>
       </provider>
